@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern": [
+        "QQ",
+        " S",
+        " S"
+    ],
+
+    "key": {
+      "Q": {
+        "item": "cm:quartz"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+
+    "result": {
+      "item": "cm:quartz_hoe",
+      "count": 1
+    }
+}

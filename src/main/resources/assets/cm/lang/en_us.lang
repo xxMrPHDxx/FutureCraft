@@ -1,0 +1,13 @@
+// ITEMS
+item.quartz.name=Quartz
+item.quartz_axe.name=Quartz Axe
+item.quartz_hoe.name=Quartz Hoe
+item.quartz_pickaxe.name=Quartz Pickaxe
+item.quartz_shovel.name=Quartz Shovel
+item.quartz_sword.name=Quartz Sword
+
+// BLOCKS
+tile.quartz_ore.name=Quartz Ore
+
+// CREATIVE TABS
+itemGroup.modMainTab=Custom Mod
