@@ -8,6 +8,10 @@ item.quartz_sword.name=Quartz Sword
 
 // BLOCKS
 tile.quartz_ore.name=Quartz Ore
+tile.sintering_furnace.name=Sintering Furnace
 
 // CREATIVE TABS
 itemGroup.modMainTab=Custom Mod
+
+// TILE ENTITY
+container.macerator=Macerator

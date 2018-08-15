@@ -29,13 +29,8 @@ public class BlockQuartzOre extends BlockBase {
 	
 	@Override
 	public int quantityDropped(IBlockState state, int fortune, Random random) {
-		int min = 4, max = 6, range = max - min + 1;
-		return min + random.nextInt(range);
-	}
-
-	@Override
-	public Item getItemBase() {
-		return ModItems.QUARTZ;
+		int min = 1, max = 2, range = max - min + 1;
+		return 1 + fortune * 2 / 3;
 	}
 
 }

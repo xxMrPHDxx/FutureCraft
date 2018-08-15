@@ -33,9 +33,11 @@ public abstract class BlockBase extends Block implements IHasModel {
 		return Item.getItemFromBlock(this);
 	}
 	
-	public abstract Item getItemBase();
+	@Override
+	public int quantityDropped(IBlockState state, int fortune, Random random) {
+		return 1;
+	}
 
 	public abstract Item getItemDropped(IBlockState state, Random random, int fortune);
-	public abstract int quantityDropped(IBlockState state, int fortune, Random random);
 
 }
